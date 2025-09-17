@@ -264,6 +264,7 @@ namespace NetDeque.Test
             //Assert.Equal(20, deque.RemBeg());
             //Assert.True(deque.IsEmpty);
 
+            //Fiz pequenas alterações para utilizar o .And o máximo possível.
             using (new AssertionScope())
             {
                 deque.PeekBeg().Should().Be(0).And
